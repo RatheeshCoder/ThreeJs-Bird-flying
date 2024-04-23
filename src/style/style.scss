@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'asul regular';
+    src: url('../assets/fonts/QuartzoBold-W9lv.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Judge regular';
+    src: url('../assets/fonts/Judge-2OaRe.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gold regular';
+    src: url('../assets/fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+$text: #112A46;
+
+body {
+    background-color: #ACC8E5;
+}
+
+
+.home {
+    font-family: 'asul regular';
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text;
+    flex-direction: column;
+
+    h1 {
+        font-size: 30rem;
+    }
+
+    .flower {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-top: -400px;
+        margin-left: -200px;
+
+        img {
+            width: 50%;
+            height: auto;
+            z-index: 999999999999;
+        }
+    }
+
+
+
+
+
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    align-items: center;
+    gap: 40px;
+
+
+    .left {
+        width: 30%;
+        height: fit-content;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        font-family: 'Judge regular';
+        color: $text;
+        margin-right: 10rem;
+
+        h1 {
+            font-size: 20rem;
+        }
+    }
+
+    .right {
+
+        width: 70%;
+        height: fit-content;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+
+        h1 {
+            color: #191970;
+            font-size: 4rem;
+            font-family: 'Judge regular';
+
+        }
+
+        p {
+            color: #191970;
+            font-size: 2rem;
+            font-family: 'Gold regular';
+
+        }
+
+    }
+
+
+
+}
+
+.section3 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem 4rem;
+    // flex-direction: column;
+
+    .left {
+        width: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-size: 20rem;
+            color: $text;
+            font-family: "Judge regular";
+        }
+
+        h2 {
+            font-size: 4rem;
+            color: #191970;
+            font-family: "Judge regular";
+        }
+
+        p {
+            color: #191970;
+            font-size: 2rem;
+            font-family: 'Gold regular';
+        }
+
+    }
+
+    .leaf {
+        width: 40%;
+        height: 100vh;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+
+        img {
+            margin-right: -200px;
+            width: 100%;
+            height: auto;
+
+        }
+    }
+}
+
+.section4 {
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .flower {
+        width: 40%;
+        height: fit-content;
+        margin-left: -100px;
+        margin-bottom: -300px;
+        z-index: 9999999999999;
+
+        img {
+            width: 50%;
+            height: auto;
+        }
+
+    }
+
+    .right {
+        width: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-size: 20rem;
+            color: $text;
+            font-family: "Judge regular";
+        }
+
+        h2 {
+            font-size: 4rem;
+            color: #191970;
+            font-family: "Judge regular";
+        }
+
+        p {
+            color: #191970;
+            font-size: 2rem;
+            font-family: 'Gold regular';
+        }
+    }
+}
