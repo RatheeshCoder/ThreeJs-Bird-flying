@@ -135,7 +135,7 @@ const ScrollAnimationComponent = () => {
     dirLight.castShadow = true;
 
     const loader = new GLTFLoader();
-    loader.load('/src/assets/Flamingo.glb', (gltf) => {
+    loader.load('/Flamingo.glb', (gltf) => {
       model.current = gltf.scene.children[0];
       model.current.castShadow = true;
       model.current.receiveShadow = true;
